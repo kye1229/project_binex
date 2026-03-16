@@ -213,8 +213,15 @@ body{min-width:1920px; -ms-overflow-style: none;}
 #main .swiper-wrapper .page6 .talent_list .talent4 p img {}
 #main .swiper-wrapper .page6 .talent_list .talent4 p span {}
 #main .swiper-wrapper .page6 .footer { 
-    background-color:#fff; height:250px;;
-    display:flex; justify-content: space-between; align-items:center;
+    background-color:#fff; 
+    height:250px;
+    display:flex; 
+    justify-content: space-between; 
+    align-items:center;
+    position: absolute;  /* 추가 */
+    bottom: 0;           /* 추가 */
+    left: 0;             /* 추가 */
+    width: 100%;         /* 추가 */
 }
 #main .swiper-wrapper .page6 .footer:after {display:none;}
 #main .swiper-wrapper .page6 .footer .f_left {padding-left:80px;}
